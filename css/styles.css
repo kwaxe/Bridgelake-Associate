@@ -15,7 +15,7 @@ html, body{
  	font-weight: bold;
  }
 
-.blue-bg{
+section.blue-bg{
 	background-color: skyblue;
 	/*padding-bottom: 50px;*/
 	/*margin-top: 50px;*/
@@ -24,6 +24,14 @@ html, body{
 body{
 	line-height: 1.5em;
 	overflow-x: hidden;
+}
+
+section{
+	
+}
+
+.img-centered {
+	margin: 0 auto;
 }
 
 .carousel-caption{
@@ -36,16 +44,16 @@ body{
 
 }
 
+.slider-subhead{
+	font-style: 20px;
+}
+
 .subhead{
+	padding-top: 20px;
 	font-size: 20px;
 	line-height: 30px;
 }
 
-section{
-	/*padding-top: 50px;*/
-	/*padding-bottom: 50px;*/
-	/*margin-bottom: 50px;*/
-}
 
 .section-title h1.heading {
     color: #4fba7a;
@@ -53,9 +61,9 @@ section{
     font-weight: bold;
 }
 
-.element-line{
+/*.element-line{
 	margin-top: 20px;
-}
+}*/
 
 .item_right{
 	/*right: -80px;*/
