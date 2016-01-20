@@ -16,7 +16,7 @@ html, body{
  }
 
 section.blue-bg{
-	background-color: #0094C6;
+	background-color: skyblue;
 }
 
 body{
@@ -29,7 +29,7 @@ body{
 }
 
 .carousel-caption{
-	bottom: 400px;
+	bottom: 300px;
 }
 
 .carousel-caption h1{
@@ -50,11 +50,32 @@ body{
 
 
 .section-title h1.heading {
-    color: #005E7C;
+    color: #4fba7a;
     font-size: 55px;
     font-weight: bold;
 }
 
+/*.element-line{
+	margin-top: 20px;
+}*/
+
+.item_right{
+	/*right: -80px;*/
+	padding-left: 0px;
+	position: relative;
+}
+
+.item_left{
+	/*left:-80px;*/
+	padding-right: 0px;
+	position: relative;
+}
+
+.media{
+	border-top:1px solid #dedede;
+	padding-top:25px;
+	margin-top:20px;
+}
 
 .parallax {
     background-attachment: fixed !important;

@@ -1,0 +1,49 @@
+*, *:after, *:before{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.blue-bg{
+	background-color: skyblue;
+}
+
+body{
+	line-height: 1.5em;
+	overflow-x: hidden;
+}
+
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.section-title h1.heading {
+    color: #4fba7a;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/*Footer Section*/
+footer{
+	font-size: 12px;
+	padding-bottom: 30px; 
+}
+
+footer .social-icon{
+    padding-top: 20px;
+}
+
+footer .social-icon a{
+
+	padding-top: 0px;
+    padding-right: 8px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    display: inline-block;
+}
