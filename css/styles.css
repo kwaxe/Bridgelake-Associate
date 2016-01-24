@@ -63,6 +63,22 @@ body{
     background-size: cover;
 }
 
+.jumbotron{
+	opacity: 0.8;
+}
+
+
+hr {
+    max-width: 50px;
+    border-color: #005E7C;
+    border-width: 3px;
+}
+
+hr.light{
+	border-color: #fff;
+}
+
+
 
 /*Footer Section*/
 
