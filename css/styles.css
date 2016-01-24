@@ -24,12 +24,19 @@ body{
 	overflow-x: hidden;
 }
 
+#portfolio
+.portfolio-item 
+.portfolio-caption h4 {
+
+
+}
+
 .img-centered {
 	margin: 0 auto;
 }
 
 .carousel-caption{
-	bottom: 400px;
+	margin-bottom: 350px;
 }
 
 .carousel-caption h1{
@@ -65,6 +72,12 @@ body{
 
 .jumbotron{
 	opacity: 0.8;
+}
+
+.service-box p {
+    margin-bottom: 80px;
+    font-size: 18px;
+	line-height: 30px;
 }
 
 
