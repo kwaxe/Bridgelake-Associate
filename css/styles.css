@@ -15,11 +15,6 @@ html, body{
 	font-family: 'Lato', sans-serif;
 }
 
- h1.heading{
- 	font-size: 65px;
- 	font-weight: bold;
- }
-
 section {
 	padding: 40px 40px 50px;
 	box-sizing: border-box;
@@ -44,16 +39,16 @@ body{
 }
 .navbar-inverse .navbar-nav > li > a {
 	color:#fff;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: border 400ms ease-in,background-color 400ms ease-in;
     font-weight: 600;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
 	background-color: rgba(255,255,255,0.2);
-	border-top: 2px solid #1976D2;
-	border-bottom: 2px solid #1976D2;
+	border-top: 3px solid #005E7C;
+	border-bottom: 3px solid #005E7C;
 }
 .img-centered {
 	margin: 0 auto;
@@ -97,6 +92,10 @@ body{
     background: radial-gradient(#005E7C, white, white);
 
 } 
+.line-transparent {
+    background: radial-gradient(white, transparent, transparent);
+
+} 
 
 .line-blue {
     background: radial-gradient( white, #005E7C, #005E7C);
@@ -120,8 +119,22 @@ body{
 	text-align: left;
     color: #424242;
 }
-.section-title > h2.heading {
+.subhead-white{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 600;
+	text-align: left;
+    color: white;
+}
+h2.heading {
     color: #005E7C;
+    font-size: 47px;
+    font-weight: bold;
+}
+h2.heading-white {
+    color: white;
     font-size: 47px;
     font-weight: bold;
 }
@@ -149,6 +162,8 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .jumbotron{
@@ -166,9 +181,10 @@ body{
 }
 
 .service-box > h3 {
-	font-weight: 700;
-	font-size: 20px;
+    font-weight: 900;
+    font-size: 19px;
     text-align: left;
+    margin-bottom: 18px;
 
 }
 .view-more {
@@ -198,6 +214,26 @@ hr.light{
 .parallax-section {
 	padding:0;
 }
+
+label {
+	color: white;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+
+.input-lg {
+	border-radius: 2px;
+	border: 1px solid transparent;
+	transition: border-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
+	outline: none;
+	box-shadow: initial;
+}
+.input-lg:focus {
+	border-color: #42A5F5;
+	outline: none;
+	box-shadow: inset 0 0 5px 1px rgba(0,0,0,0.3);
+}
+
 
 /*Footer Section*/
 
