@@ -227,6 +227,7 @@ label {
 	transition: border-color 300ms ease-in-out, box-shadow 300ms ease-in-out;
 	outline: none;
 	box-shadow: initial;
+	resize:none;
 }
 .input-lg:focus {
 	border-color: #42A5F5;
@@ -256,4 +257,22 @@ footer .social-icon a{
     padding-bottom: 25px;
     padding-left: 8px;
     display: inline-block;
+    transition: color;
+}
+
+.fa-fw {
+	color: #005E7C;
+	transition: color 300ms ease-in;
+}
+
+a:hover .fa-facebook {
+	color:#3b5999;
+}
+
+a:hover .fa-twitter {
+	color:#55acee;
+}
+
+a:hover .fa-linkedin-square {
+	color:#0077B5;
 }
