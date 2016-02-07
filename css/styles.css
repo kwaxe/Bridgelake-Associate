@@ -24,19 +24,18 @@ body{
 	overflow-x: hidden;
 }
 
-#portfolio
+/*#portfolio
 .portfolio-item 
-.portfolio-caption h4 {
+.portfolio-caption h4 { 
 
 
-}
+}*/
 
 .img-centered {
 	margin: 0 auto;
 }
 
 .carousel-caption{
-	/*margin-bottom: 350px;*/
 	position: static;
 	width: 1040px;
     margin: 0 auto;
