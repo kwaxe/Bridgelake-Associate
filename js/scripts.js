@@ -4,7 +4,7 @@ $(document).ready(function() {
 					$(this).delay(150).animate({
 						opacity: 1,
 						left: "0px"
-					}, 1000);
+					}); // 1000
 				});
 			});
 			$('.item_right').each(function() {
@@ -12,7 +12,7 @@ $(document).ready(function() {
 					$(this).delay(150).animate({
 						opacity: 1,
 						right: "0px"
-					}, 1000);
+					} ); // 1000
 				});
 			});
 			$(window).bind('load', function() {
