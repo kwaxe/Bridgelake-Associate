@@ -36,7 +36,10 @@ body{
 }
 
 .carousel-caption{
-	margin-bottom: 350px;
+	/*margin-bottom: 350px;*/
+	position: static;
+	width: 1040px;
+    margin: 0 auto;
 }
 
 .carousel-caption h1{
