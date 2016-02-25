@@ -454,3 +454,59 @@ a:hover .fa-twitter {
 a:hover .fa-linkedin-square {
 	color:#0077B5;
 }
+.onmobile {
+  display: none;
+}
+
+.ondesktop {
+  display: block;
+}
+
+/* MOBILE STYLING */
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav > li > a {
+    text-align: center;
+  }
+  .service-box {
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 20px;
+  }
+  .last-service {
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+  .service-box > p, .service-box > h3 {
+    text-align: center;
+  } 
+  .onmobile {
+    display: block; 
+  }
+  .ondesktop {
+    display: none;
+  }
+}
+ 
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .fill {
+    padding: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .slider-subhead {
+    font-size: 14.5px;
+  }
+  .carousel-indicators {
+    bottom: 0px;
+  }
+  h2.heading, h2.heading-white {
+    font-size: 30px; 
+  }
+  .subhead {
+    font-size: 15px;
+    line-height: 27px;
+  }
+}
