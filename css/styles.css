@@ -463,6 +463,19 @@ a:hover .fa-linkedin-square {
 }
 
 /* MOBILE STYLING */
+@media (max-width: 991px) {
+  .onmobile {
+    display: block;
+    margin-top: 20px;
+  }
+  .ondesktop {
+    display: none;
+  }
+  .service-box {
+    padding-bottom: 20px;
+  }
+
+}
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav > li > a {
     text-align: center;
@@ -480,12 +493,6 @@ a:hover .fa-linkedin-square {
   .service-box > p, .service-box > h3 {
     text-align: center;
   } 
-  .onmobile {
-    display: block; 
-  }
-  .ondesktop {
-    display: none;
-  }
 }
  
 
