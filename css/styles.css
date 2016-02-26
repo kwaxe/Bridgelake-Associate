@@ -195,12 +195,13 @@ h2.heading-white {
 	text-decoration: none;
 	color:white;
 }
-
 .parallax {
-    background-attachment: fixed !important;
+    /*background-attachment: fixed !important;*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: initial;
+
 /*    padding-top: 0px;
     padding-bottom: 0px;*/
 }
