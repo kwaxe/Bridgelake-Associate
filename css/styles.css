@@ -196,11 +196,10 @@ h2.heading-white {
 	color:white;
 }
 .parallax {
-    /*background-attachment: fixed !important;*/
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: initial !important;
 
 /*    padding-top: 0px;
     padding-bottom: 0px;*/
@@ -544,5 +543,8 @@ a:hover .fa-linkedin-square {
   section {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .parallax {
+    background-position: initial !important;
   }
 }
