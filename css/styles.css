@@ -282,6 +282,8 @@ label {
 }
 .about-content {
 	font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .contact-form {
 	position: relative;
@@ -393,6 +395,16 @@ label {
   }
 }
 
+/* ABOUT SECTION */
+.col-md-9 h2 {
+  margin-top: 0;
+}
+
+.col-md-3 img {
+  box-shadow: 0 1px 8px 0px rgba(0,0,0,0.5);
+  border-radius: 4px;
+}
+
 /* MAP SECTION*/
 
 .map-container {
@@ -502,6 +514,9 @@ a:hover .fa-linkedin-square {
   .service-box > p, .service-box > h3 {
     text-align: center;
   } 
+  .col-md-3 img {
+    margin-bottom: 20px;
+  }
 }
  
 
