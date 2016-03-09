@@ -75,11 +75,13 @@
         <div class="overlay"></div>
     </section>
 
-    <section class="section-content blue-bg" id="contact" style="padding-top:40px; padding-bottom:80px;">
-        <div class="parallax-background-color-contact">
+       <section class="contact-section blue-bg box-inset-bottom" id="contact">
+        <div class="contact-form">
             <div class="container">
                 <!-- Section title -->
                 <div class="section-title text-center" id="contact">
+                    <!-- <h2 class="heading-white">Contact Us</h2> -->
+                    <!-- <div class="line line-blue"></div>  -->
                     <div>
                         
                         <span class="subhead-white">
@@ -92,8 +94,17 @@
                 <!-- Section title -->
                 <div class="element-line">
                     <!-- form contact -->
-                    <form id="user_submit_form" name="user_submit_form" onsubmit="return false">
+                    <form id="user_submit_form" name="user_submit_form"  action="http://formspree.io/bridgelakeassoc@gmail.com" method="POST">
                         <!-- <form name="user_submit_form" id="user_submit_form" onSubmit="return false" role="form">-->
+
+<!-- <form action="//formspree.io/bridgelakeassoc@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form> -->
+
+
                         <div class="form-respond text-center"></div>
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-md-6 col-xs-12">
@@ -104,11 +115,11 @@
                                         name="name" placeholder="Enter your name" required="" type="text">
                                     </div>
                                     <!-- Form group -->
-
+ 
                                     <!-- Form group -->
                                     <div class="form-group">
                                         <label for="email">Email</label> <input class=
-                                        "form-control input-lg required email" id="email" name="email"
+                                        "form-control input-lg required email" id="email" name="_replyto"
                                         placeholder="Enter your email id" required="" type="email">
                                     </div>
                                     <!-- Form group -->
@@ -138,14 +149,14 @@
                                         <label for="message">Message</label> 
                                         <textarea class="form-control input-lg required" id="message" name="message" 
                                         placeholder="Enter Message" required="" rows="12"></textarea>
-                                    </div>  
+                                    </div>   
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="action form-button medium">
-                                    <button class="btn view-more">Send</button>
+                                    <button class="btn view-more" value="Send" type="submit" value="Send">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -154,6 +165,12 @@
                 </div>
             </div>
         </div>
+        <ul class="bg-squares">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </section>
 
     <!-- Map Section -->
@@ -164,8 +181,9 @@
         </div>  
 
         <div class="container map-container">
-            <div id="map"></div>
-            <div class="map-overlay"></div>
+            <!-- <div id="map"></div> -->
+            <!-- <div class="map-overlay"></div> -->
+            <img src="img/map.png" class="img-responsive">
         </div>
 
         <div class="container">
@@ -180,14 +198,12 @@
                     
                 </div>
                 <div class="col-md-6">
-                    <h3>Office Location 2:</h3>
+                    <h3>Ghana</h3>
                     <p>
                         28 Church Crescent Street
                         <br>
-                        North Labone, Ghana
-                    
-                    </p>
-                    
+                        North Labone, Ghana   
+                    </p>                    
                 </div>
             </div>
         </div>
